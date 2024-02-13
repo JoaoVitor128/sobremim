@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oxanium", cursive;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+nav {
+    background-color: #fff;
+    border: 5px #363636 solid;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #363636;
+}
+
+.center {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.textos-header {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.textos-header h1 {
+    color: #363636;
+}
+
+.index section {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer div {
+    padding-left: 25px;
+    margin-bottom: 5px;
+}
+
+footer a img {
+    width: 80px;
+    height: 80px;
+}
+
+/*projetos*/
+
+.git {
+    color: rgb(190, 151, 226);
+}
+
+.link {
+    color: rgb(0, 174, 255);
+}
+
+.tube {
+    color: rgb(250, 85, 35);
+}
+
+.projetos-main h1,
+h2 {
+    text-align: center;
+}
+
+.meus-projetos {
+    text-align: center;
+}
+
+.main-projetos p {
+    padding-left: 25px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.main-projetos img {
+    position: relative;
+    margin-left: 60%;
+    margin-top: -10%;
+    background-color: #363636;
+}
+
+.gta img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 55px;
+    margin-left: 60%;
+}
+
+@media (max-width:820px){
+    .main-projetos img{
+        display: none;
+    }
+
+}
+
+@media (max-width: 574px){
+    .index{
+        padding: 5px;
+    }
+
+    .main-projetos{
+        padding: 5px;
+    }
+}
